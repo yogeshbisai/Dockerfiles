@@ -1,5 +1,11 @@
+#base os
 FROM almalinux
+#installing packages
 RUN yum update -y
+# installing webserver
 RUN yum install nginx -y
+RUN rm -rf /usr/share/nginx/html/index.html
+#copy the applcation code from your local Laptop to Image
 COPY qa/ /usr/share/nginx/html/
+# you are starting the container
 CMD ["nginx", "-g", "daemon off;"]
