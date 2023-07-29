@@ -1,0 +1,2 @@
+FROM almalinux:8
+ADD https://github.com/yogeshbisai/Dockerfiles/blob/master/test.sh /tmp/test.sh
