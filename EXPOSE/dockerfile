@@ -1,2 +1,2 @@
 FROM cmd:v1
-EXPOSE 8081
+EXPOSE 80/tcp
