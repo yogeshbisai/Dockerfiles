@@ -1,4 +1,9 @@
 FROM almalinux
-LABEL COURSE = Terrafrom \
-        Trainer = Siva
-  
+LABEL Course=Terrafrom \
+        Trainer=Siva
+
+
+
+
+
+
