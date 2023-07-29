@@ -1,0 +1,5 @@
+FROM almalinux
+ENV username=admin \
+    password=abc1234 \
+    port=3306 \
+    hostname=mysql.example.com
