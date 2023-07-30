@@ -1,0 +1,4 @@
+FROM almalinux:8
+WORKDIR /tmp
+RUN touch hello.txt
+RUN echo "hello god" > hi.txt
