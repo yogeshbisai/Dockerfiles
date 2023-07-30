@@ -1,4 +1,4 @@
 ARG VERSION
-FROM almalinux:${VERSION:-8} # if no argement given by user during runtime
+FROM almalinux:"${VERSION:-8}" # if no argement given by user during runtime
 ARG GREETING
 RUN echo "${GEEETING}"
