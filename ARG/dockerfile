@@ -1,4 +1,4 @@
 ARG VERSION
 FROM almalinux:${VERSION:-8} # if no argement given by user during runtime
 ARG GREETING
-RUN echo "hello world is : ${GEEETING}"
+RUN echo "${GEEETING}"
