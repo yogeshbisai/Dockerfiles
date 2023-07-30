@@ -2,3 +2,5 @@ FROM almalinux:8
 RUN useradd nginx1
 USER nginx1
 RUN echo "hello aadhya" > /tmp/hell.txt
+CMD ["google.com"]
+ENTRYPOINT ["ping", "-c5"]
