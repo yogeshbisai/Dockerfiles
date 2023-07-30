@@ -1,2 +1,4 @@
 ARG VERSION
-FROM almalinux:$VERSION
+FROM almalinux:${VERSION:-8} # if no argement given by user during runtime ,it will take vasrion 8 as default
+ARG GREETING
+RUN echo "hello world is : ${GEEETING}"
