@@ -1,2 +1,2 @@
 FROM almalinux:8
-ADD https://github.com/yogeshbisai/demo-repo/blob/main/test.sh /tmp/test.sh
+ADD https://github.com/yogeshbisai/demo-repo/blob/main/test.sh /tmp/docker.sh
